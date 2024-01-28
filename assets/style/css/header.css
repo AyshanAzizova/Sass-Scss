@@ -1,0 +1,16 @@
+nav .row {
+  padding: 20px;
+  background-color: aquamarine;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
+}
+nav ul li a {
+  color: red;
+}
+nav .col-2 img {
+  width: 100%;
+}/*# sourceMappingURL=header.css.map */

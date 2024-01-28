@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        padding: 20px 0;
+    }
+
+    .col-3 {
+        .list {
+            gap: 20px;
+
+            ul {
+                color: gray;
+
+            }
+        }
+
+        li {
+
+            input {
+                margin: 10px 0 20px;
+                border: none;
+                border-bottom: 2px solid gray;
+            }
+        }
+
+        i {
+            margin: 0 10px;
+        }
+    }
+
+}

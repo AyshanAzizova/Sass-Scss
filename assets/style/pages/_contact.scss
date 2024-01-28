@@ -1,0 +1,23 @@
+#contact{
+    // ul{
+    // margin: 30px 0;
+    // }
+    .container{
+        display: flex;
+        flex-direction: column;
+        button{
+            padding:40px 40px;
+
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+          
+        }
+    }
+}
+iframe {
+    width: 100%; /* takes precedence over the width set with the HTML width attribute */
+// height: 90vh;
+    
+}

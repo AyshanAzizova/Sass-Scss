@@ -1,0 +1,41 @@
+#icons {
+    padding: 50px 0;
+
+    .card {
+        padding: 30px 0;
+        border: none;
+        i {
+            font-size: 28px;
+            padding: 24px;
+            border-radius: 50%;
+            transition: 0.5s;
+            border: 5px solid rgb(240, 240, 240);
+            background-color: rgb(233, 233, 233);
+
+            &:hover {
+                transform: rotateY(180deg);
+                color: $base-color;
+            }
+        }
+
+        p {
+            padding-top: 20px;
+        }
+    }
+}
+.card{
+    border: none;
+}
+#latest-blog{
+    padding: 4rem 0;
+    background: rgb(247, 247, 247);
+    .col-4{
+        h5{
+            margin: 1rem 0 !important;
+        }
+        p{
+            margin: 4px 0;
+            line-height: 26px;
+        }
+    }
+}

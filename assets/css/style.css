@@ -1,0 +1,259 @@
+.container {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  z-index: 1;
+  padding: 20px;
+  height: 70px;
+}
+header .container {
+  position: fixed;
+  z-index: 1;
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav .logo {
+  width: 20%;
+}
+header .container nav .logo img {
+  width: 100%;
+}
+header .container nav ul {
+  display: flex;
+  gap: 45px;
+  justify-content: end;
+  margin-bottom: 0;
+}
+header .container nav ul a {
+  color: #121212;
+  font-weight: 500;
+}
+header .container nav .burger {
+  display: none;
+  color: #f63440;
+}
+header .container nav .burger i {
+  font-size: 30px;
+}
+@media (max-width: 1200px) {
+  header .container nav .burger {
+    display: block;
+  }
+  header .container nav ul {
+    display: none;
+  }
+}
+
+.topHome {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+.topHome .carousel-inner .carousel-item .caousel-caption {
+  position: absolute;
+  right: 60%;
+  bottom: 1.25rem;
+  left: 9%;
+  /* padding-top: 1.25rem; */
+  top: 27%;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.bottomHome {
+  height: 90vh;
+  margin: 4rem 0;
+  display: flex;
+  height: 66vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bottomHome_left {
+  height: 100%;
+  background: url(/assets/images/h3ad1.jpg);
+  border: 2px solid red;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bottomHome_left .content {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomHome_right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bottomHome_right .top {
+  width: 100%;
+  background: url(/assets/images/h3ad2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 2px solid rgb(255, 0, 111);
+  height: 50%;
+}
+.bottomHome_right .bottom {
+  background: url(/assets/images/h3ad3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgb(0, 251, 255);
+  height: 50%;
+}
+
+@media (max-width: 992px) {
+  .bottomHome {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.content {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .line {
+  width: 80px;
+  height: 2px;
+  background-color: #f63440;
+}
+
+#products {
+  padding: 40px 0;
+  margin-top: 30px;
+}
+#products .row .col-md-1 i {
+  color: gray;
+  font-size: 50px;
+}
+#products .row .card .image img {
+  width: 100%;
+}
+
+#covid-19 {
+  margin-top: 20px;
+}
+#covid-19 .container {
+  height: 50vh;
+}
+#covid-19 .container img {
+  width: 100%;
+  height: 100%;
+}
+
+#icons {
+  padding: 50px 0;
+}
+#icons .card {
+  padding: 30px 0;
+  border: none;
+}
+#icons .card i {
+  font-size: 28px;
+  padding: 24px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 5px solid rgb(240, 240, 240);
+  background-color: rgb(233, 233, 233);
+}
+#icons .card i:hover {
+  transform: rotateY(180deg);
+  color: #f63440;
+}
+#icons .card p {
+  padding-top: 20px;
+}
+
+.card {
+  border: none;
+}
+
+#latest-blog {
+  padding: 4rem 0;
+  background: rgb(247, 247, 247);
+}
+#latest-blog .col-4 h5 {
+  margin: 1rem 0 !important;
+}
+#latest-blog .col-4 p {
+  margin: 4px 0;
+  line-height: 26px;
+}
+
+#contact .container {
+  display: flex;
+  flex-direction: column;
+}
+#contact .container button {
+  padding: 40px 40px;
+}
+#contact .container .inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  width: 100%; /* takes precedence over the width set with the HTML width attribute */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer span {
+  padding: 20px 0;
+}
+footer .col-3 .list {
+  gap: 20px;
+}
+footer .col-3 .list ul {
+  color: gray;
+}
+footer .col-3 li input {
+  margin: 10px 0 20px;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+footer .col-3 i {
+  margin: 0 10px;
+}/*# sourceMappingURL=style.css.map */
